@@ -16,4 +16,13 @@
     .skill-bottom .section{
         margin-bottom: 20px;
     }
+
+    /* blog section */
+    .blog-section-bottom .blog-section-bottom-left span{
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .blog-btn{
+        margin-top: 50px;
+    }
 }

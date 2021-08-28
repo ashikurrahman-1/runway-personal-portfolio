@@ -1,0 +1,58 @@
+@media all and (max-width: 768px){
+    .about-bottom{
+        flex-direction: column;
+    }
+    .about-bottom-left, .about-bottom-right{
+        width: 100%;
+    }
+
+    /* skill section */
+    .skill-middle{
+        flex-direction: column;
+    }
+
+    /* service section */
+    .service-bottom .services{
+        flex-basis: 38%;
+        margin-bottom: 20px;
+    }
+
+    /* portfolio section */
+    .portfolio-bottom{
+        min-height: auto;
+    }
+    .portfolio-bottom .projects::before{
+        height: 93%;
+    }
+    .portfolio-bottom .projects i{
+        font-size: 25px;
+        top: 38%;
+        letter-spacing: 40%;
+    }
+
+    /* blog seciton */
+    .blog-section{
+        flex-basis: 100%;
+        margin-bottom: 50px;
+    }
+    .blog-section .blog-section-top{
+        width: 100%;
+    }
+
+    /* contact section */
+    .contact-bottom-left{
+        flex-basis: 38%;
+    }
+    .contact-bottom-right{
+        flex-basis: 60%;
+    }
+    .contact-bottom-right .name-email{
+        flex-direction: column;
+    }
+    .contact-bottom-right .name-email input{
+        width: 100%;
+    }
+    .contact-bottom-right textarea{
+        padding: 20px 10px 25px;
+    }
+}
