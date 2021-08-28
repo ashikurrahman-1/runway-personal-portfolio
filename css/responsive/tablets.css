@@ -1,0 +1,54 @@
+@media all and (max-width: 992px){
+    .header-logo{
+        width: 20%;
+    }
+    .nav{
+        width: 80%;
+    }
+    .nav ul li{
+        flex-basis: 85px;
+        text-align: center;
+    }
+
+    /* about section */
+    .about-bottom{
+        flex-direction: column;
+    }
+    .about-bottom-left{
+        width: 100%;
+    }
+    .about-bottom-right{
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    /* skill section */
+    .skill-middle-right .skill-ratio{
+        margin-top: 45px;
+    }
+
+    /* service section */
+    .service-bottom .services{
+        flex-basis: 38%;
+        margin-bottom: 20px;
+    }
+
+    /* portfolio section */
+
+    .portfolio-bottom .projects::before{
+        height: 56%;
+    }
+    .portfolio-bottom .projects i{
+        top: 23%;
+        left: 41%;
+    }
+
+    /* blog section */
+    .blog-bottom-sections .three{
+        margin-top: 50px;
+        flex-grow: 1;
+    }
+    .blog-bottom-sections .three .blog-section-top{
+        width: 100%;
+    }
+}
