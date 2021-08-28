@@ -1,0 +1,72 @@
+@media all and (max-width: 600px){
+    #viewport{
+        background-position-x: 75%;
+    }
+    .viewport.main{
+        width: 65%;
+    }
+
+    /* about section */
+    .about-bottom{
+        flex-direction: column;
+    }
+    .about-bottom-left{
+        width: 100%;
+    }
+    .about-bottom-right{
+        width: 100%;
+    }
+
+    /* skill section */
+    .skill-middle{
+        flex-direction: column;
+    }
+    .skill-bottom .section{
+        flex-basis: 20%;
+    }
+
+    /* Service section */
+    .service-bottom{
+        flex-direction: column;
+    }
+    .service-bottom .services{
+        margin-bottom: 20px;
+    }
+
+    /* portfolio section */
+    .portfolio-bottom{
+        flex-direction: column;
+    }
+    .portfolio-bottom .projects::before{
+        height: 98%;
+    }
+    .portfolio-bottom .projects i{
+        top: 45%;
+    }
+    .projects-nav{
+        visibility: hidden;
+    }
+
+
+    /* testimonial section */
+    .testimonial-bottom{
+        flex-direction: column;
+    }
+
+    /* blog sections */
+    .blog-section{
+        flex-basis: 100%;
+        margin-bottom: 50px;
+    }
+    .blog-section-top{
+        width: 100%;
+    }
+
+    /* contact section */
+    .contact-bottom{
+        flex-direction: column;
+    }
+    .contact-bottom-right .name-email input{
+        width: 43%;
+    }
+}
