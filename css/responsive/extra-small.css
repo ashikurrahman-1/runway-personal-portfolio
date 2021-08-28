@@ -1,0 +1,19 @@
+@media all and (max-width: 375px){
+    .viewport-main{
+        width: 84%;
+        background: #e6928870;
+    }
+
+    /* about section */
+    .abl-bottom{
+        flex-direction: column;
+    }
+
+    /* skill section */
+    .skill-bottom{
+        flex-direction: column;
+    }
+    .skill-bottom .section{
+        margin-bottom: 20px;
+    }
+}
