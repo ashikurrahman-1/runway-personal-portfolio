@@ -58,9 +58,10 @@ header{
     padding: 150px 0 100px;
     background: url(../img/me1.jpg);
     background-repeat: no-repeat;
+	background-attachment: fixed;
     background-size: cover;
     background-position-x: 50%;
-    background-position-y: 20%;
+    background-position-y: 0%;
     height: 100%;
 }
 .viewport-main{
@@ -143,22 +144,25 @@ header{
 }
 .about-bottom{
     display: flex;
+    gap: 50px;
     margin-top: 50px;
 }
 .about-bottom-left{
-    width: 55%;
+    width: 50%;
 }
 .about-bottom-left p{
     color: gray;
 }
 
 .about-bottom-right{
-    width: 45%;
-    display: flex;
-    justify-content: flex-end;
+    width: 50%;
+    display: grid;
+    align-items: center;
 }
 .about-bottom-right img{
-    width: 90%;
+    width: 100%;
+    display: block;
+    object-fit: cover;
 }
 .abl-bottom{
     display: flex;
